@@ -2,12 +2,10 @@
 import json
 import time
 from collections import Counter, defaultdict, deque
-from pathlib import Path
 
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
-from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
 from .rag import chat as chat_mod
@@ -137,8 +135,3 @@ def chat(body: ChatIn, request: Request):
             yield f"data: {json.dumps(ev, ensure_ascii=False)}\n\n"
     return StreamingResponse(stream(), media_type="text/event-stream",
                              headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"})
-
-
-DIST = Path(__file__).resolve().parents[1] / "frontend" / "dist"
-if DIST.is_dir():  # production container: serve the built React app from the same origin as the API
-    app.mount("/", StaticFiles(directory=DIST, html=True), name="ui")

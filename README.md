@@ -1,12 +1,3 @@
----
-title: OSCC Gene Explorer
-colorFrom: blue
-colorTo: green
-sdk: docker
-app_port: 7860
-pinned: false
----
-
 # OSCC Gene Explorer
 
 Dashboard + cited RAG chatbot for the 54-gene OSCC panel (post-chemotherapy status), the in-vitro DTX/MTX paper and the HNSCC review.
@@ -38,8 +29,7 @@ cd frontend && npm run dev                                       # terminal 2 ->
 ```
 
 ## Deploy
-- **Hugging Face Space (Docker)**: full app (API + built frontend) from the `Dockerfile`, port 7860. Set `GEMINI_API_KEY` as a Space secret.
-- **Vercel**: frontend only (Root Directory `frontend`); `frontend/vercel.json` proxies `/api/*` to the Space, so the API key lives only on Hugging Face.
+Vercel (free): `vercel.json` builds the React app as static files and runs the FastAPI backend from `api/index.py` as a Python function (runtime deps in the root `requirements.txt`). Set `GEMINI_API_KEY` in the Vercel project's Environment Variables.
 
 ## How it works
 - `data/raw/`: the original xlsx and PDFs, kept locally and not committed; only needed to rebuild `backend/data/`.
