@@ -1,0 +1,17 @@
+{
+  "name": "oscc-gene-explorer",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": { "dev": "vite", "build": "vite build" },
+  "dependencies": {
+    "cytoscape": "3.30.4",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "recharts": "2.15.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3.4",
+    "vite": "5.4.11"
+  }
+}

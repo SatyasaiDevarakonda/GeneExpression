@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+frontend/dist/
+.vercel/
+
+# original papers and gene sheet stay local; only the processed backend/data/ is committed
+/data/
+*.pdf
+*.xlsx
+*.xls

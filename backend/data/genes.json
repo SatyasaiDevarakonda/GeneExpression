@@ -1,0 +1,1551 @@
+[
+  {
+    "id": 1,
+    "symbol": "ABCG2",
+    "raw_symbol": "ABCG2",
+    "full_name": "ATP-binding cassette sub-family G member 2 (Breast Cancer Resistance Protein, BCRP)",
+    "category": "Drug transport / chemoresistance",
+    "role": "Efflux pump and cancer stem cell marker; high expression in OSCC side-population cells associates with resistance to cisplatin, 5-FU and other agents and with poorer outcome.",
+    "status_after_chemo": "down",
+    "group": "Drug transport & metabolism",
+    "pathways": [
+      "Drug transport / metabolism"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": "Drug efflux",
+    "drug_data": [
+      {
+        "drug": "DTX",
+        "fold_change": 0.63,
+        "significance": "*",
+        "direction": "down"
+      },
+      {
+        "drug": "MTX",
+        "fold_change": 0.49,
+        "significance": "**",
+        "direction": "down"
+      }
+    ],
+    "measured_in_paper": true,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 2,
+    "symbol": "SPP1",
+    "raw_symbol": "SPP1",
+    "full_name": "Secreted phosphoprotein 1 (Osteopontin)",
+    "category": "ECM / signalling",
+    "role": "Overexpressed in OSCC tumours and serum; promotes invasion, migration and metastasis via integrin/CD44 signalling and is linked to nodal metastasis and poor prognosis.",
+    "status_after_chemo": "down",
+    "group": "ECM, invasion & angiogenesis",
+    "pathways": [
+      "Wnt/beta-catenin & EMT",
+      "ECM remodelling & invasion"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": null,
+    "drug_data": [],
+    "measured_in_paper": false,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 3,
+    "symbol": "CXCL8",
+    "raw_symbol": "CXCL8",
+    "full_name": "C-X-C motif chemokine ligand 8 (Interleukin-8)",
+    "category": "Chemokine / inflammation",
+    "role": "Elevated in OSCC tissue and saliva (candidate salivary biomarker); drives angiogenesis, proliferation, invasion and EMT, and contributes to chemoresistance.",
+    "status_after_chemo": "down",
+    "group": "Inflammation & immune",
+    "pathways": [
+      "Wnt/beta-catenin & EMT",
+      "Inflammation & cytokines",
+      "Angiogenesis"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": null,
+    "drug_data": [],
+    "measured_in_paper": false,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 4,
+    "symbol": "CXCL12",
+    "raw_symbol": "CXCL12",
+    "full_name": "C-X-C motif chemokine ligand 12 (Stromal cell-derived factor-1, SDF-1)",
+    "category": "Chemokine / microenvironment",
+    "role": "Ligand for CXCR4; the CXCL12–CXCR4 axis promotes OSCC cell migration, invasion and lymph node metastasis; largely produced by cancer-associated fibroblasts.",
+    "status_after_chemo": "down",
+    "group": "Inflammation & immune",
+    "pathways": [
+      "Wnt/beta-catenin & EMT",
+      "Inflammation & cytokines",
+      "ECM remodelling & invasion"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": null,
+    "drug_data": [],
+    "measured_in_paper": false,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 5,
+    "symbol": "BAX",
+    "raw_symbol": "BAX",
+    "full_name": "BCL2-associated X protein",
+    "category": "Apoptosis (pro-apoptotic)",
+    "role": "Mediator of mitochondrial apoptosis induced by cisplatin and radiation; reduced BAX or a low BAX/BCL2 ratio is associated with treatment resistance in OSCC.",
+    "status_after_chemo": "up",
+    "group": "Apoptosis",
+    "pathways": [
+      "Apoptosis"
+    ],
+    "functional_class": "pro-death",
+    "biology_alignment": "consistent",
+    "paper_category": "Apoptotic genes",
+    "drug_data": [
+      {
+        "drug": "DTX",
+        "fold_change": 1.75,
+        "significance": "***",
+        "direction": "up"
+      },
+      {
+        "drug": "MTX",
+        "fold_change": 6.73,
+        "significance": "****",
+        "direction": "up"
+      }
+    ],
+    "measured_in_paper": true,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 6,
+    "symbol": "PDGFB",
+    "raw_symbol": "PDGFB",
+    "full_name": "Platelet-derived growth factor subunit B",
+    "category": "Growth factor",
+    "role": "Supports tumour–stroma crosstalk, angiogenesis and fibroblast recruitment; PDGF signalling is upregulated in OSCC and linked to invasion and metastasis.",
+    "status_after_chemo": "down",
+    "group": "Signalling & kinases",
+    "pathways": [
+      "Receptor tyrosine kinase",
+      "Angiogenesis"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": "Growth factor",
+    "drug_data": [
+      {
+        "drug": "DTX",
+        "fold_change": 0.59,
+        "significance": "**",
+        "direction": "down"
+      },
+      {
+        "drug": "MTX",
+        "fold_change": 1.01,
+        "significance": "ns",
+        "direction": "ns"
+      }
+    ],
+    "measured_in_paper": true,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 7,
+    "symbol": "SLC7A5",
+    "raw_symbol": "SLC7A5",
+    "full_name": "Solute carrier family 7 member 5 (L-type amino acid transporter 1, LAT1)",
+    "category": "Amino acid transport / metabolism",
+    "role": "Overexpressed in OSCC; supplies leucine for mTORC1-driven growth and is an independent marker of poor prognosis; investigated as a therapeutic target.",
+    "status_after_chemo": "down",
+    "group": "Drug transport & metabolism",
+    "pathways": [
+      "PI3K/AKT/mTOR",
+      "Drug transport / metabolism"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": "Drug uptake transporter",
+    "drug_data": [
+      {
+        "drug": "DTX",
+        "fold_change": 0.19,
+        "significance": "**",
+        "direction": "down"
+      },
+      {
+        "drug": "MTX",
+        "fold_change": 1.21,
+        "significance": "*",
+        "direction": "up"
+      }
+    ],
+    "measured_in_paper": true,
+    "sheet_paper_conflict": "Sheet 2 says downregulated; Fig. 6 is drug-dependent (opposite for one drug).",
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 8,
+    "symbol": "ANXA1",
+    "raw_symbol": "ANXA1",
+    "full_name": "Annexin A1",
+    "category": "Inflammation / membrane signalling",
+    "role": "Expression is frequently reduced in OSCC versus normal mucosa and loss correlates with poor differentiation; also implicated in modulating chemosensitivity.",
+    "status_after_chemo": "down",
+    "group": "Inflammation & immune",
+    "pathways": [
+      "Inflammation & cytokines"
+    ],
+    "functional_class": "context-dependent",
+    "biology_alignment": "n/a",
+    "paper_category": null,
+    "drug_data": [],
+    "measured_in_paper": false,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 9,
+    "symbol": "BRAF",
+    "raw_symbol": "BRAF",
+    "full_name": "B-Raf proto-oncogene, serine/threonine kinase",
+    "category": "MAPK signalling kinase",
+    "role": "Activating mutations are rare in OSCC (unlike melanoma), but BRAF is a component of the EGFR–RAS–RAF–MEK–ERK proliferation pathway active in these tumours.",
+    "status_after_chemo": "down",
+    "group": "Signalling & kinases",
+    "pathways": [
+      "MAPK/RAS-RAF-ERK"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": "Oncogene",
+    "drug_data": [
+      {
+        "drug": "DTX",
+        "fold_change": 0.1,
+        "significance": "***",
+        "direction": "down"
+      },
+      {
+        "drug": "MTX",
+        "fold_change": 0.51,
+        "significance": "***",
+        "direction": "down"
+      }
+    ],
+    "measured_in_paper": true,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 10,
+    "symbol": "ERBB2",
+    "raw_symbol": "ERBB2",
+    "full_name": "Erb-b2 receptor tyrosine kinase 2 (HER2/neu)",
+    "category": "Receptor tyrosine kinase",
+    "role": "Overexpression/amplification reported in a subset of OSCC; associated with aggressive behaviour and may contribute to resistance to EGFR-targeted therapy.",
+    "status_after_chemo": "down",
+    "group": "Signalling & kinases",
+    "pathways": [
+      "MAPK/RAS-RAF-ERK",
+      "Receptor tyrosine kinase"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": "Oncogene",
+    "drug_data": [
+      {
+        "drug": "DTX",
+        "fold_change": 0.15,
+        "significance": "***",
+        "direction": "down"
+      },
+      {
+        "drug": "MTX",
+        "fold_change": 0.15,
+        "significance": "**",
+        "direction": "down"
+      }
+    ],
+    "measured_in_paper": true,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 11,
+    "symbol": "SRC",
+    "raw_symbol": "SRC",
+    "full_name": "SRC proto-oncogene, non-receptor tyrosine kinase",
+    "category": "Non-receptor tyrosine kinase",
+    "role": "Frequently activated in head and neck SCC; promotes invasion, migration and EMT and contributes to resistance to EGFR inhibitors and chemotherapy.",
+    "status_after_chemo": "down",
+    "group": "Signalling & kinases",
+    "pathways": [
+      "MAPK/RAS-RAF-ERK",
+      "Receptor tyrosine kinase",
+      "Wnt/beta-catenin & EMT"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": "Oncogene",
+    "drug_data": [
+      {
+        "drug": "DTX",
+        "fold_change": 0.5,
+        "significance": "**",
+        "direction": "down"
+      },
+      {
+        "drug": "MTX",
+        "fold_change": 0.45,
+        "significance": "*",
+        "direction": "down"
+      }
+    ],
+    "measured_in_paper": true,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 12,
+    "symbol": "TP53",
+    "raw_symbol": "TP53",
+    "full_name": "Tumour protein p53",
+    "category": "Tumour suppressor / DNA damage response",
+    "role": "The most frequently mutated gene in OSCC (often >60-70%); mutation is linked to tobacco exposure, genomic instability, poor prognosis and reduced response to cisplatin and radiation.",
+    "status_after_chemo": "up",
+    "group": "Cell cycle & tumour suppressors",
+    "pathways": [
+      "Apoptosis",
+      "Cell cycle",
+      "DNA repair & damage response"
+    ],
+    "functional_class": "pro-death",
+    "biology_alignment": "consistent",
+    "paper_category": "Tumour suppressor",
+    "drug_data": [
+      {
+        "drug": "DTX",
+        "fold_change": 1.09,
+        "significance": "ns",
+        "direction": "ns"
+      },
+      {
+        "drug": "MTX",
+        "fold_change": 2.27,
+        "significance": "****",
+        "direction": "up"
+      }
+    ],
+    "measured_in_paper": true,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 13,
+    "symbol": "BRCA1",
+    "raw_symbol": "BRCA1",
+    "full_name": "BRCA1 DNA repair associated (Breast cancer type 1 susceptibility protein)",
+    "category": "DNA repair (homologous recombination)",
+    "role": "Its expression influences sensitivity to platinum drugs and PARP inhibitors; altered BRCA1 expression has been reported in OSCC and linked to chemoresponse.",
+    "status_after_chemo": "down",
+    "group": "DNA repair",
+    "pathways": [
+      "DNA repair & damage response"
+    ],
+    "functional_class": "context-dependent",
+    "biology_alignment": "n/a",
+    "paper_category": "Tumour suppressor",
+    "drug_data": [
+      {
+        "drug": "DTX",
+        "fold_change": 1.61,
+        "significance": "**",
+        "direction": "up"
+      },
+      {
+        "drug": "MTX",
+        "fold_change": 1.76,
+        "significance": "**",
+        "direction": "up"
+      }
+    ],
+    "measured_in_paper": true,
+    "sheet_paper_conflict": "Sheet 2 says downregulated; Fig. 6 shows upregulation with both DTX and MTX.",
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 14,
+    "symbol": "ATM",
+    "raw_symbol": "ATM",
+    "full_name": "ATM serine/threonine kinase (Ataxia telangiectasia mutated)",
+    "category": "DNA damage response kinase",
+    "role": "Senses DNA double-strand breaks and activates p53/CHK2; polymorphisms and altered expression are associated with OSCC risk and with radio- and chemosensitivity.",
+    "status_after_chemo": "up",
+    "group": "DNA repair",
+    "pathways": [
+      "DNA repair & damage response"
+    ],
+    "functional_class": "pro-death",
+    "biology_alignment": "consistent",
+    "paper_category": "DNA repair",
+    "drug_data": [
+      {
+        "drug": "DTX",
+        "fold_change": 1.44,
+        "significance": "**",
+        "direction": "up"
+      },
+      {
+        "drug": "MTX",
+        "fold_change": 1.98,
+        "significance": "***",
+        "direction": "up"
+      }
+    ],
+    "measured_in_paper": true,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 15,
+    "symbol": "CDK2",
+    "raw_symbol": "CDK2",
+    "full_name": "Cyclin-dependent kinase 2",
+    "category": "Cell cycle",
+    "role": "Drives G1/S transition with cyclin E/A; elevated activity in OSCC supports uncontrolled proliferation and is associated with poor prognosis.",
+    "status_after_chemo": "down",
+    "group": "Cell cycle & tumour suppressors",
+    "pathways": [
+      "Cell cycle"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": "Cell cycle checkpoint",
+    "drug_data": [
+      {
+        "drug": "DTX",
+        "fold_change": 0.38,
+        "significance": "**",
+        "direction": "down"
+      },
+      {
+        "drug": "MTX",
+        "fold_change": 0.77,
+        "significance": "*",
+        "direction": "down"
+      }
+    ],
+    "measured_in_paper": true,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 16,
+    "symbol": "PARP1",
+    "raw_symbol": "PARP1",
+    "full_name": "Poly(ADP-ribose) polymerase 1",
+    "category": "DNA repair (base excision / single-strand break)",
+    "role": "Upregulated in OSCC; repairs chemotherapy-induced DNA damage and so contributes to cisplatin resistance; PARP inhibitors are being explored as sensitisers.",
+    "status_after_chemo": "down",
+    "group": "DNA repair",
+    "pathways": [
+      "DNA repair & damage response"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": "DNA repair",
+    "drug_data": [
+      {
+        "drug": "DTX",
+        "fold_change": 0.36,
+        "significance": "***",
+        "direction": "down"
+      },
+      {
+        "drug": "MTX",
+        "fold_change": 0.62,
+        "significance": "**",
+        "direction": "down"
+      }
+    ],
+    "measured_in_paper": true,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 17,
+    "symbol": "MLH1",
+    "raw_symbol": "MLH1",
+    "full_name": "MutL homolog 1",
+    "category": "DNA mismatch repair",
+    "role": "Reduced expression or promoter hypermethylation occurs in some OSCC; MMR deficiency is linked to tolerance of cisplatin-induced DNA damage.",
+    "status_after_chemo": "down",
+    "group": "DNA repair",
+    "pathways": [
+      "DNA repair & damage response"
+    ],
+    "functional_class": "context-dependent",
+    "biology_alignment": "n/a",
+    "paper_category": null,
+    "drug_data": [],
+    "measured_in_paper": false,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 18,
+    "symbol": "XRCC2",
+    "raw_symbol": "XRCC2",
+    "full_name": "X-ray repair cross-complementing 2",
+    "category": "DNA repair (homologous recombination)",
+    "role": "RAD51 paralog in double-strand break repair; polymorphisms have been studied for association with oral cancer risk and radiosensitivity.",
+    "status_after_chemo": "down",
+    "group": "DNA repair",
+    "pathways": [
+      "DNA repair & damage response"
+    ],
+    "functional_class": "context-dependent",
+    "biology_alignment": "n/a",
+    "paper_category": null,
+    "drug_data": [],
+    "measured_in_paper": false,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 19,
+    "symbol": "XRCC1",
+    "raw_symbol": "XRCC1",
+    "full_name": "X-ray repair cross-complementing 1",
+    "category": "DNA repair (base excision)",
+    "role": "Scaffold protein for base excision/SSB repair; Arg399Gln and other polymorphisms are associated with OSCC risk (especially with tobacco) and treatment response.",
+    "status_after_chemo": "down",
+    "group": "DNA repair",
+    "pathways": [
+      "DNA repair & damage response"
+    ],
+    "functional_class": "context-dependent",
+    "biology_alignment": "n/a",
+    "paper_category": "DNA repair",
+    "drug_data": [
+      {
+        "drug": "DTX",
+        "fold_change": 0.18,
+        "significance": "****",
+        "direction": "down"
+      },
+      {
+        "drug": "MTX",
+        "fold_change": 0.32,
+        "significance": "***",
+        "direction": "down"
+      }
+    ],
+    "measured_in_paper": true,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 20,
+    "symbol": "GSK3B",
+    "raw_symbol": "GSK3B",
+    "full_name": "Glycogen synthase kinase 3 beta",
+    "category": "Kinase / Wnt & PI3K signalling",
+    "role": "Inactivated downstream of AKT; loss of GSK3B activity stabilises beta-catenin and Snail, promoting EMT and invasion in OSCC.",
+    "status_after_chemo": "up",
+    "group": "Signalling & kinases",
+    "pathways": [
+      "PI3K/AKT/mTOR",
+      "Wnt/beta-catenin & EMT"
+    ],
+    "functional_class": "pro-death",
+    "biology_alignment": "consistent",
+    "paper_category": null,
+    "drug_data": [],
+    "measured_in_paper": false,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 21,
+    "symbol": "STAT3",
+    "raw_symbol": "STAT3",
+    "full_name": "Signal transducer and activator of transcription 3",
+    "category": "Transcription factor / JAK-STAT",
+    "role": "Constitutively activated in OSCC (via IL-6, EGFR); promotes proliferation, survival, immune evasion and cisplatin resistance; a candidate therapeutic target.",
+    "status_after_chemo": "down",
+    "group": "Signalling & kinases",
+    "pathways": [
+      "JAK/STAT",
+      "Wnt/beta-catenin & EMT",
+      "Immune evasion & antigen presentation",
+      "Transcription factors (AP-1 / MYC / STAT)"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": null,
+    "drug_data": [],
+    "measured_in_paper": false,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 22,
+    "symbol": "CYP2E1",
+    "raw_symbol": "CYP2E1",
+    "full_name": "Cytochrome P450 family 2 subfamily E member 1",
+    "category": "Xenobiotic metabolism",
+    "role": "Metabolises ethanol and tobacco nitrosamines to reactive carcinogens; polymorphisms are associated with oral cancer susceptibility, particularly in drinkers and smokers.",
+    "status_after_chemo": "down",
+    "group": "Drug transport & metabolism",
+    "pathways": [
+      "Drug transport / metabolism"
+    ],
+    "functional_class": "context-dependent",
+    "biology_alignment": "n/a",
+    "paper_category": null,
+    "drug_data": [],
+    "measured_in_paper": false,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 23,
+    "symbol": "JUN",
+    "raw_symbol": "JUN",
+    "full_name": "Jun proto-oncogene, AP-1 transcription factor subunit (c-Jun)",
+    "category": "Transcription factor (AP-1)",
+    "role": "AP-1 component activated by JNK; promotes proliferation, invasion and MMP expression in OSCC and is involved in stress and chemotherapy responses.",
+    "status_after_chemo": "down",
+    "group": "Transcription factors",
+    "pathways": [
+      "MAPK/RAS-RAF-ERK",
+      "Transcription factors (AP-1 / MYC / STAT)"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": null,
+    "drug_data": [],
+    "measured_in_paper": false,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 24,
+    "symbol": "AKT1",
+    "raw_symbol": "AKT1",
+    "full_name": "AKT serine/threonine kinase 1 (Protein kinase B)",
+    "category": "PI3K/AKT/mTOR signalling",
+    "role": "PI3K/AKT pathway is among the most frequently activated in OSCC; AKT1 drives survival, proliferation and resistance to chemotherapy and radiation.",
+    "status_after_chemo": "down",
+    "group": "Signalling & kinases",
+    "pathways": [
+      "PI3K/AKT/mTOR"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": null,
+    "drug_data": [],
+    "measured_in_paper": false,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 25,
+    "symbol": "MYC",
+    "raw_symbol": "MYC",
+    "full_name": "MYC proto-oncogene, bHLH transcription factor (c-Myc)",
+    "category": "Transcription factor / oncogene",
+    "role": "Amplified or overexpressed in a subset of OSCC; drives proliferation and metabolic reprogramming and is associated with poor prognosis.",
+    "status_after_chemo": "down",
+    "group": "Transcription factors",
+    "pathways": [
+      "Cell cycle",
+      "Transcription factors (AP-1 / MYC / STAT)"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": "Oncogene",
+    "drug_data": [
+      {
+        "drug": "DTX",
+        "fold_change": 0.21,
+        "significance": "***",
+        "direction": "down"
+      },
+      {
+        "drug": "MTX",
+        "fold_change": 0.27,
+        "significance": "***",
+        "direction": "down"
+      }
+    ],
+    "measured_in_paper": true,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 26,
+    "symbol": "AURKA",
+    "raw_symbol": "AURKA",
+    "full_name": "Aurora kinase A",
+    "category": "Mitosis / cell cycle",
+    "role": "Overexpressed in OSCC; associated with genomic instability, metastasis, poor survival and chemoresistance; Aurora kinase inhibitors are under investigation.",
+    "status_after_chemo": "down",
+    "group": "Cell cycle & tumour suppressors",
+    "pathways": [
+      "Cell cycle"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": "Cell cycle checkpoint",
+    "drug_data": [
+      {
+        "drug": "DTX",
+        "fold_change": 0.08,
+        "significance": "***",
+        "direction": "down"
+      },
+      {
+        "drug": "MTX",
+        "fold_change": 0.93,
+        "significance": "ns",
+        "direction": "ns"
+      }
+    ],
+    "measured_in_paper": true,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 27,
+    "symbol": "ERCC1",
+    "raw_symbol": "ERCC1",
+    "full_name": "ERCC excision repair 1, endonuclease non-catalytic subunit",
+    "category": "DNA repair (nucleotide excision)",
+    "role": "Key repair of cisplatin DNA adducts; high ERCC1 expression is associated with cisplatin resistance and poorer outcome in head and neck/oral SCC.",
+    "status_after_chemo": "down",
+    "group": "DNA repair",
+    "pathways": [
+      "DNA repair & damage response"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": null,
+    "drug_data": [],
+    "measured_in_paper": false,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 28,
+    "symbol": "XPC",
+    "raw_symbol": "XPC",
+    "full_name": "XPC complex subunit, DNA damage recognition and repair factor",
+    "category": "DNA repair (global genome NER)",
+    "role": "Recognises bulky DNA lesions, including tobacco carcinogen adducts; polymorphisms are associated with oral cancer risk and may influence platinum response.",
+    "status_after_chemo": "down",
+    "group": "DNA repair",
+    "pathways": [
+      "DNA repair & damage response"
+    ],
+    "functional_class": "context-dependent",
+    "biology_alignment": "n/a",
+    "paper_category": "DNA repair",
+    "drug_data": [
+      {
+        "drug": "DTX",
+        "fold_change": 2.03,
+        "significance": "****",
+        "direction": "up"
+      },
+      {
+        "drug": "MTX",
+        "fold_change": 2.22,
+        "significance": "****",
+        "direction": "up"
+      }
+    ],
+    "measured_in_paper": true,
+    "sheet_paper_conflict": "Sheet 2 says downregulated; Fig. 6 shows upregulation with both DTX and MTX.",
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 29,
+    "symbol": "TNF",
+    "raw_symbol": "TNF",
+    "full_name": "Tumour necrosis factor (TNF-alpha)",
+    "category": "Cytokine / inflammation",
+    "role": "Elevated in OSCC tissue and saliva; chronic TNF signalling via NF-kB promotes inflammation, invasion and EMT; polymorphisms linked to susceptibility.",
+    "status_after_chemo": "down",
+    "group": "Inflammation & immune",
+    "pathways": [
+      "Wnt/beta-catenin & EMT",
+      "Inflammation & cytokines"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": null,
+    "drug_data": [],
+    "measured_in_paper": false,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 30,
+    "symbol": "CDKN1A",
+    "raw_symbol": "CDKN1A",
+    "full_name": "Cyclin-dependent kinase inhibitor 1A (p21, WAF1/CIP1)",
+    "category": "Cell cycle inhibitor",
+    "role": "p53 target that mediates cell-cycle arrest after DNA damage; altered expression in OSCC is associated with prognosis and with response to chemotherapy.",
+    "status_after_chemo": "up",
+    "group": "Cell cycle & tumour suppressors",
+    "pathways": [
+      "Apoptosis",
+      "Cell cycle",
+      "DNA repair & damage response"
+    ],
+    "functional_class": "pro-death",
+    "biology_alignment": "consistent",
+    "paper_category": "Cell cycle checkpoint",
+    "drug_data": [
+      {
+        "drug": "DTX",
+        "fold_change": 1.28,
+        "significance": "*",
+        "direction": "up"
+      },
+      {
+        "drug": "MTX",
+        "fold_change": 1.11,
+        "significance": "ns",
+        "direction": "ns"
+      }
+    ],
+    "measured_in_paper": true,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 31,
+    "symbol": "GSTM1",
+    "raw_symbol": "GSTM1",
+    "full_name": "Glutathione S-transferase mu 1",
+    "category": "Phase II detoxification",
+    "role": "Detoxifies tobacco carcinogens and some chemotherapy drugs; the GSTM1 null genotype is associated with increased oral cancer risk in tobacco users.",
+    "status_after_chemo": "down",
+    "group": "Drug transport & metabolism",
+    "pathways": [
+      "Drug transport / metabolism"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": null,
+    "drug_data": [],
+    "measured_in_paper": false,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 32,
+    "symbol": "MMP2",
+    "raw_symbol": "MMP2",
+    "full_name": "Matrix metallopeptidase 2 (Gelatinase A)",
+    "category": "ECM degradation / invasion",
+    "role": "Degrades type IV collagen of the basement membrane; overexpression in OSCC correlates with invasion depth, lymph node metastasis and poor prognosis.",
+    "status_after_chemo": "down",
+    "group": "ECM, invasion & angiogenesis",
+    "pathways": [
+      "ECM remodelling & invasion"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": null,
+    "drug_data": [],
+    "measured_in_paper": false,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 33,
+    "symbol": "MSH2",
+    "raw_symbol": "MSH2",
+    "full_name": "MutS homolog 2",
+    "category": "DNA mismatch repair",
+    "role": "Core MMR protein; altered expression is reported in OSCC and premalignant lesions and may influence cisplatin sensitivity.",
+    "status_after_chemo": "down",
+    "group": "DNA repair",
+    "pathways": [
+      "DNA repair & damage response"
+    ],
+    "functional_class": "context-dependent",
+    "biology_alignment": "n/a",
+    "paper_category": "DNA repair",
+    "drug_data": [
+      {
+        "drug": "DTX",
+        "fold_change": 2.66,
+        "significance": "****",
+        "direction": "up"
+      },
+      {
+        "drug": "MTX",
+        "fold_change": 3.23,
+        "significance": "****",
+        "direction": "up"
+      }
+    ],
+    "measured_in_paper": true,
+    "sheet_paper_conflict": "Sheet 2 says downregulated; Fig. 6 shows upregulation with both DTX and MTX.",
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 34,
+    "symbol": "CYP1A1",
+    "raw_symbol": "CYP1A1",
+    "full_name": "Cytochrome P450 family 1 subfamily A member 1",
+    "category": "Xenobiotic metabolism",
+    "role": "Activates polycyclic aromatic hydrocarbons from tobacco smoke into DNA-binding carcinogens; polymorphisms are associated with OSCC risk.",
+    "status_after_chemo": "down",
+    "group": "Drug transport & metabolism",
+    "pathways": [
+      "Drug transport / metabolism"
+    ],
+    "functional_class": "context-dependent",
+    "biology_alignment": "n/a",
+    "paper_category": null,
+    "drug_data": [],
+    "measured_in_paper": false,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 35,
+    "symbol": "RAD51",
+    "raw_symbol": "RAD51",
+    "full_name": "RAD51 recombinase",
+    "category": "DNA repair (homologous recombination)",
+    "role": "Central HR protein; overexpression in OSCC enhances repair of chemo- and radiation-induced DNA damage and is associated with resistance.",
+    "status_after_chemo": "down",
+    "group": "DNA repair",
+    "pathways": [
+      "DNA repair & damage response"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": "DNA repair",
+    "drug_data": [
+      {
+        "drug": "DTX",
+        "fold_change": 0.31,
+        "significance": "**",
+        "direction": "down"
+      },
+      {
+        "drug": "MTX",
+        "fold_change": 0.49,
+        "significance": "**",
+        "direction": "down"
+      }
+    ],
+    "measured_in_paper": true,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 36,
+    "symbol": "CCR5",
+    "raw_symbol": "CCR5",
+    "full_name": "C-C motif chemokine receptor 5",
+    "category": "Chemokine receptor / immune",
+    "role": "Receptor for CCL5 (RANTES); the CCL5–CCR5 axis promotes OSCC cell migration, invasion and metastasis and shapes immune infiltration.",
+    "status_after_chemo": "down",
+    "group": "Inflammation & immune",
+    "pathways": [
+      "Inflammation & cytokines",
+      "Immune evasion & antigen presentation"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": null,
+    "drug_data": [],
+    "measured_in_paper": false,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 37,
+    "symbol": "HLA-C",
+    "raw_symbol": "HLA-C",
+    "full_name": "Major histocompatibility complex, class I, C",
+    "category": "Antigen presentation / immune",
+    "role": "Presents tumour antigens to T cells and regulates NK cells; downregulation of HLA class I in OSCC is a mechanism of immune escape.",
+    "status_after_chemo": "up",
+    "group": "Inflammation & immune",
+    "pathways": [
+      "Immune evasion & antigen presentation"
+    ],
+    "functional_class": "pro-death",
+    "biology_alignment": "consistent",
+    "paper_category": null,
+    "drug_data": [],
+    "measured_in_paper": false,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 38,
+    "symbol": "MAPK1",
+    "raw_symbol": "MAPK1",
+    "full_name": "Mitogen-activated protein kinase 1 (ERK2)",
+    "category": "MAPK signalling kinase",
+    "role": "Terminal kinase of the EGFR–RAS–RAF–MEK–ERK pathway; frequently activated in OSCC and drives proliferation and survival.",
+    "status_after_chemo": "down",
+    "group": "Signalling & kinases",
+    "pathways": [
+      "MAPK/RAS-RAF-ERK"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": "Signal transduction",
+    "drug_data": [
+      {
+        "drug": "DTX",
+        "fold_change": 0.56,
+        "significance": "***",
+        "direction": "down"
+      },
+      {
+        "drug": "MTX",
+        "fold_change": 0.11,
+        "significance": "***",
+        "direction": "down"
+      }
+    ],
+    "measured_in_paper": true,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 39,
+    "symbol": "MAPK8",
+    "raw_symbol": "MAPK8",
+    "full_name": "Mitogen-activated protein kinase 8 (JNK1)",
+    "category": "Stress-activated MAPK",
+    "role": "Activated by stress and cisplatin; context-dependent roles in OSCC including apoptosis induction and promotion of invasion via c-Jun/AP-1.",
+    "status_after_chemo": "up",
+    "group": "Signalling & kinases",
+    "pathways": [
+      "MAPK/RAS-RAF-ERK",
+      "Apoptosis"
+    ],
+    "functional_class": "context-dependent",
+    "biology_alignment": "n/a",
+    "paper_category": null,
+    "drug_data": [],
+    "measured_in_paper": false,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 40,
+    "symbol": "SLC10A1",
+    "raw_symbol": "SLC10A1",
+    "full_name": "Solute carrier family 10 member 1 (Sodium/taurocholate cotransporting polypeptide, NTCP)",
+    "category": "Bile acid transport",
+    "role": "Mainly hepatic; little established role in OSCC. Relevance here is likely as a drug-uptake transporter or exploratory candidate.",
+    "status_after_chemo": "down",
+    "group": "Drug transport & metabolism",
+    "pathways": [
+      "Drug transport / metabolism"
+    ],
+    "functional_class": "context-dependent",
+    "biology_alignment": "n/a",
+    "paper_category": "Drug uptake transporter",
+    "drug_data": [
+      {
+        "drug": "DTX",
+        "fold_change": 0.59,
+        "significance": "*",
+        "direction": "down"
+      },
+      {
+        "drug": "MTX",
+        "fold_change": 1.8,
+        "significance": "***",
+        "direction": "up"
+      }
+    ],
+    "measured_in_paper": true,
+    "sheet_paper_conflict": "Sheet 2 says downregulated; Fig. 6 is drug-dependent (opposite for one drug).",
+    "flags": [
+      "Exploratory: the sheet notes little established OSCC role for this gene."
+    ],
+    "notes": ""
+  },
+  {
+    "id": 41,
+    "symbol": "AXL",
+    "raw_symbol": "AXL",
+    "full_name": "AXL receptor tyrosine kinase",
+    "category": "Receptor tyrosine kinase",
+    "role": "Overexpressed in OSCC; promotes EMT, invasion and metastasis and mediates resistance to EGFR inhibitors, PI3K inhibitors and cisplatin.",
+    "status_after_chemo": "down",
+    "group": "Signalling & kinases",
+    "pathways": [
+      "Receptor tyrosine kinase",
+      "Wnt/beta-catenin & EMT",
+      "ECM remodelling & invasion"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": null,
+    "drug_data": [],
+    "measured_in_paper": false,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 42,
+    "symbol": "IGF1R",
+    "raw_symbol": "IGIFR",
+    "full_name": "Insulin-like growth factor 1 receptor",
+    "category": "Receptor tyrosine kinase",
+    "role": "Overexpressed in OSCC; activates PI3K/AKT and MAPK, promoting proliferation, survival and resistance to chemotherapy, radiation and EGFR-targeted therapy.",
+    "status_after_chemo": "down",
+    "group": "Signalling & kinases",
+    "pathways": [
+      "PI3K/AKT/mTOR",
+      "Receptor tyrosine kinase"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": "Signal transduction",
+    "drug_data": [
+      {
+        "drug": "DTX",
+        "fold_change": 0.37,
+        "significance": "***",
+        "direction": "down"
+      },
+      {
+        "drug": "MTX",
+        "fold_change": 0.47,
+        "significance": "**",
+        "direction": "down"
+      }
+    ],
+    "measured_in_paper": true,
+    "sheet_paper_conflict": null,
+    "flags": [
+      "Sheet symbol 'IGIFR' is not an official symbol; interpreted as IGF1R."
+    ],
+    "notes": ""
+  },
+  {
+    "id": 43,
+    "symbol": "PTEN",
+    "raw_symbol": "PTEN",
+    "full_name": "Phosphatase and tensin homolog",
+    "category": "Tumour suppressor / PI3K antagonist",
+    "role": "Negative regulator of PI3K/AKT; loss of expression or mutation in OSCC leads to pathway hyperactivation and is associated with progression and poor prognosis.",
+    "status_after_chemo": "up",
+    "group": "Signalling & kinases",
+    "pathways": [
+      "PI3K/AKT/mTOR"
+    ],
+    "functional_class": "pro-death",
+    "biology_alignment": "consistent",
+    "paper_category": "Signal transduction",
+    "drug_data": [
+      {
+        "drug": "DTX",
+        "fold_change": 0.54,
+        "significance": "***",
+        "direction": "down"
+      },
+      {
+        "drug": "MTX",
+        "fold_change": 0.51,
+        "significance": "**",
+        "direction": "down"
+      }
+    ],
+    "measured_in_paper": true,
+    "sheet_paper_conflict": "Sheet 2 says upregulated; Fig. 6 shows downregulation with both DTX and MTX.",
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 44,
+    "symbol": "TGM3",
+    "raw_symbol": "TGM3",
+    "full_name": "Transglutaminase 3",
+    "category": "Epithelial differentiation",
+    "role": "Involved in keratinocyte cornified envelope formation; frequently downregulated in OSCC, and loss is associated with poor differentiation and worse prognosis.",
+    "status_after_chemo": "up",
+    "group": "ECM, invasion & angiogenesis",
+    "pathways": [
+      "ECM remodelling & invasion"
+    ],
+    "functional_class": "pro-death",
+    "biology_alignment": "consistent",
+    "paper_category": null,
+    "drug_data": [],
+    "measured_in_paper": false,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 45,
+    "symbol": "VEGFA",
+    "raw_symbol": "VEGFA",
+    "full_name": "Vascular endothelial growth factor A",
+    "category": "Angiogenesis",
+    "role": "Overexpressed in OSCC; drives tumour angiogenesis and lymphangiogenesis and is associated with nodal metastasis and poor survival.",
+    "status_after_chemo": "down",
+    "group": "ECM, invasion & angiogenesis",
+    "pathways": [
+      "Angiogenesis"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": "Growth factor",
+    "drug_data": [
+      {
+        "drug": "DTX",
+        "fold_change": 0.29,
+        "significance": "**",
+        "direction": "down"
+      },
+      {
+        "drug": "MTX",
+        "fold_change": 0.71,
+        "significance": "*",
+        "direction": "down"
+      }
+    ],
+    "measured_in_paper": true,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 46,
+    "symbol": "PIK3CA",
+    "raw_symbol": "PIK3CA",
+    "full_name": "Phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha (p110-alpha)",
+    "category": "PI3K/AKT/mTOR signalling",
+    "role": "Among the most frequently mutated/amplified oncogenes in head and neck/oral SCC; activates AKT/mTOR to drive growth and therapy resistance.",
+    "status_after_chemo": "down",
+    "group": "Signalling & kinases",
+    "pathways": [
+      "PI3K/AKT/mTOR"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": "Signal transduction",
+    "drug_data": [
+      {
+        "drug": "DTX",
+        "fold_change": 0.72,
+        "significance": "**",
+        "direction": "down"
+      },
+      {
+        "drug": "MTX",
+        "fold_change": 0.66,
+        "significance": "**",
+        "direction": "down"
+      }
+    ],
+    "measured_in_paper": true,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 47,
+    "symbol": "CASP9",
+    "raw_symbol": "CAS9",
+    "full_name": "Caspase 9",
+    "category": "Apoptosis (initiator caspase)",
+    "role": "Initiator caspase of the intrinsic (mitochondrial) apoptotic pathway; reduced activation in OSCC contributes to evasion of chemotherapy-induced apoptosis.",
+    "status_after_chemo": "up",
+    "group": "Apoptosis",
+    "pathways": [
+      "Apoptosis"
+    ],
+    "functional_class": "pro-death",
+    "biology_alignment": "consistent",
+    "paper_category": "Apoptotic genes",
+    "drug_data": [
+      {
+        "drug": "DTX",
+        "fold_change": 2.23,
+        "significance": "***",
+        "direction": "up"
+      },
+      {
+        "drug": "MTX",
+        "fold_change": 1.53,
+        "significance": "**",
+        "direction": "up"
+      }
+    ],
+    "measured_in_paper": true,
+    "sheet_paper_conflict": null,
+    "flags": [
+      "Sheet symbol 'CAS9' is not an official symbol; interpreted as CASP9."
+    ],
+    "notes": ""
+  },
+  {
+    "id": 48,
+    "symbol": "IL6",
+    "raw_symbol": "IL6",
+    "full_name": "Interleukin 6",
+    "category": "Cytokine / inflammation",
+    "role": "Elevated in OSCC tissue, serum and saliva; activates JAK/STAT3 to promote proliferation, EMT, immune suppression and chemo/radioresistance; prognostic marker.",
+    "status_after_chemo": "down",
+    "group": "Inflammation & immune",
+    "pathways": [
+      "JAK/STAT",
+      "Wnt/beta-catenin & EMT",
+      "Inflammation & cytokines",
+      "Immune evasion & antigen presentation"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": null,
+    "drug_data": [],
+    "measured_in_paper": false,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 49,
+    "symbol": "COL1A2",
+    "raw_symbol": "COL1A2",
+    "full_name": "Collagen type I alpha 2 chain",
+    "category": "Extracellular matrix",
+    "role": "Upregulated in OSCC stroma (cancer-associated fibroblasts); contributes to matrix remodelling and invasion and is associated with poor prognosis.",
+    "status_after_chemo": "down",
+    "group": "ECM, invasion & angiogenesis",
+    "pathways": [
+      "ECM remodelling & invasion"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": null,
+    "drug_data": [],
+    "measured_in_paper": false,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 50,
+    "symbol": "CASP3",
+    "raw_symbol": "CAS3",
+    "full_name": "Caspase 3",
+    "category": "Apoptosis (executioner caspase)",
+    "role": "Executioner caspase activated by most chemotherapies; cleaved caspase-3 is used as a marker of chemotherapy-induced apoptosis in OSCC cells.",
+    "status_after_chemo": "up",
+    "group": "Apoptosis",
+    "pathways": [
+      "Apoptosis"
+    ],
+    "functional_class": "pro-death",
+    "biology_alignment": "consistent",
+    "paper_category": "Apoptotic genes",
+    "drug_data": [
+      {
+        "drug": "DTX",
+        "fold_change": 1.4,
+        "significance": "**",
+        "direction": "up"
+      },
+      {
+        "drug": "MTX",
+        "fold_change": 1.79,
+        "significance": "***",
+        "direction": "up"
+      }
+    ],
+    "measured_in_paper": true,
+    "sheet_paper_conflict": null,
+    "flags": [
+      "Sheet symbol 'CAS3' is not an official symbol; interpreted as CASP3."
+    ],
+    "notes": ""
+  },
+  {
+    "id": 51,
+    "symbol": "BCL2",
+    "raw_symbol": "BCL2",
+    "full_name": "BCL2 apoptosis regulator (B-cell lymphoma 2)",
+    "category": "Apoptosis (anti-apoptotic)",
+    "role": "Overexpression in OSCC inhibits mitochondrial apoptosis and is associated with resistance to cisplatin and radiation.",
+    "status_after_chemo": "down",
+    "group": "Apoptosis",
+    "pathways": [
+      "Apoptosis"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": "Apoptotic genes",
+    "drug_data": [
+      {
+        "drug": "DTX",
+        "fold_change": 0.26,
+        "significance": "***",
+        "direction": "down"
+      },
+      {
+        "drug": "MTX",
+        "fold_change": 0.35,
+        "significance": "****",
+        "direction": "down"
+      }
+    ],
+    "measured_in_paper": true,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 52,
+    "symbol": "STAT5B",
+    "raw_symbol": "STAT5B",
+    "full_name": "Signal transducer and activator of transcription 5B",
+    "category": "Transcription factor / JAK-STAT",
+    "role": "Activated downstream of EGFR and cytokine receptors in head and neck SCC; promotes proliferation, survival and EGFR-inhibitor resistance.",
+    "status_after_chemo": "down",
+    "group": "Signalling & kinases",
+    "pathways": [
+      "JAK/STAT",
+      "Transcription factors (AP-1 / MYC / STAT)"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": null,
+    "drug_data": [],
+    "measured_in_paper": false,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 53,
+    "symbol": "RB1",
+    "raw_symbol": "RB1",
+    "full_name": "RB transcriptional corepressor 1 (Retinoblastoma protein)",
+    "category": "Tumour suppressor / cell cycle",
+    "role": "Controls G1/S checkpoint; its pathway is commonly disrupted in OSCC (often via CDKN2A loss or CCND1 amplification), and HPV E7 inactivates pRb.",
+    "status_after_chemo": "up",
+    "group": "Cell cycle & tumour suppressors",
+    "pathways": [
+      "Cell cycle"
+    ],
+    "functional_class": "pro-death",
+    "biology_alignment": "consistent",
+    "paper_category": "Tumour suppressor",
+    "drug_data": [
+      {
+        "drug": "DTX",
+        "fold_change": 1.07,
+        "significance": "ns",
+        "direction": "ns"
+      },
+      {
+        "drug": "MTX",
+        "fold_change": 1.43,
+        "significance": "**",
+        "direction": "up"
+      }
+    ],
+    "measured_in_paper": true,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  },
+  {
+    "id": 54,
+    "symbol": "MMP7",
+    "raw_symbol": "MMP7",
+    "full_name": "Matrix metallopeptidase 7 (Matrilysin)",
+    "category": "ECM degradation / invasion",
+    "role": "Overexpressed in OSCC; promotes invasion and metastasis and is associated with lymph node involvement and poor prognosis.",
+    "status_after_chemo": "down",
+    "group": "ECM, invasion & angiogenesis",
+    "pathways": [
+      "ECM remodelling & invasion"
+    ],
+    "functional_class": "pro-survival",
+    "biology_alignment": "consistent",
+    "paper_category": null,
+    "drug_data": [],
+    "measured_in_paper": false,
+    "sheet_paper_conflict": null,
+    "flags": [],
+    "notes": ""
+  }
+]

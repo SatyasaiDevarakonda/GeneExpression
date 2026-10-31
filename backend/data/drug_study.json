@@ -1,0 +1,33 @@
+{
+  "citation": "Natesan et al., Cell Biochemistry and Biophysics (2025), doi:10.1007/s12013-025-01901-4",
+  "model": "KB oral cancer cell line, 24 h exposure",
+  "ic50": [
+    {"drug": "DTX", "name": "Docetaxel", "value": 6.25, "unit": "nM", "range": "1.5-50 nM tested"},
+    {"drug": "MTX", "name": "Methotrexate", "value": 100, "unit": "µM", "range": "25-250 µM tested"}
+  ],
+  "insilico": {
+    "oscc_genes_disgenet": 773,
+    "drug_targets_swisstarget": 82,
+    "overlap_dtx": 18,
+    "overlap_mtx": 18,
+    "enrichment_genes": 43,
+    "note": "18 OSCC/drug-target overlaps per drug plus 25 literature genes (43 total) used for ShinyGO enrichment and STRING/CytoHubba PPI analysis."
+  },
+  "hub_genes_degree": {
+    "DTX": [["EGFR", 37], ["TP53", 36], ["MYC", 32], ["PTEN", 31], ["BCL2", 31], ["CASP3", 30], ["PARP1", 30], ["SRC", 30], ["TNF", 29], ["ATM", 27]],
+    "MTX": [["TP53", 36], ["MYC", 31], ["ATM", 30], ["PARP1", 30], ["BRCA1", 29], ["PTEN", 27], ["BCL2", 27], ["CASP3", 27], ["CDKN1A", 25], ["PIK3CA", 25]]
+  },
+  "assays": [
+    {"title": "Cell viability (MTT)", "finding": "Dose-dependent loss of viability; IC50 6.25 nM (DTX) and 100 µM (MTX).", "figure": "Fig. 5"},
+    {"title": "Gene expression (RT-PCR)", "finding": "29 genes measured. Both drugs raised BAX, CASP3, CASP9 and lowered BCL2, BRAF, MYC, ERBB2, SRC, ABCG2, RAD51, PARP1, XRCC1, MAPK1, IGIFR and PIK3CA. Several genes were drug-specific (e.g. AURKA, SLC7A5, PDGFB fall only with DTX).", "figure": "Fig. 6"},
+    {"title": "Cell migration (wound healing)", "finding": "Migration was significantly reduced at 6 h and 24 h with both drugs.", "figure": "Fig. 7"},
+    {"title": "Colony formation", "finding": "Colony number and surviving fraction were reduced (assay doses: DTX 0.9 nM, MTX 14.2 µM).", "figure": "Fig. 8"},
+    {"title": "DNA fragmentation", "finding": "Enhanced DNA fragmentation (ladder) in drug-treated cells.", "figure": "Fig. 9"},
+    {"title": "Western blot", "finding": "Increased caspases 3, 7 and 9 with both drugs.", "figure": "Fig. 10"}
+  ],
+  "admet": [
+    {"property": "Intestinal absorption (human)", "DTX": "63.437 %", "MTX": "19.358 %"},
+    {"property": "Water solubility (log mol/L)", "DTX": "-4.135", "MTX": "-3.058"}
+  ],
+  "conclusion": "Authors conclude DTX showed a significantly stronger cytotoxic effect against KB oral cancer cells than MTX, with further molecular investigation warranted."
+}

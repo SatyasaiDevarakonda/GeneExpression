@@ -1,0 +1,161 @@
+[
+  {
+    "drug": "Cisplatin",
+    "biomarker": "LRRC8A (VRAC influx pump) and SLC31A1 (CTR1) uptake transporter",
+    "status": "Downregulated",
+    "effect": "Reduced cisplatin accumulation inside the cell (Siemer et al. 2021).",
+    "page": 22,
+    "panel_genes": []
+  },
+  {
+    "drug": "Cisplatin",
+    "biomarker": "KEAP1",
+    "status": "Downregulated",
+    "effect": "Loss of KEAP1 leads to constitutive NRF2 expression supporting tumour cell proliferation (Osman et al. 2023).",
+    "page": 22,
+    "panel_genes": []
+  },
+  {
+    "drug": "Cisplatin",
+    "biomarker": "SLC40A1 (ferroportin)",
+    "status": "Upregulated",
+    "effect": "Continuous iron expulsion reduces ROS-mediated cell damage; resistance (Yu et al. 2020).",
+    "page": 22,
+    "panel_genes": []
+  },
+  {
+    "drug": "Cisplatin",
+    "biomarker": "ABCB1 (MDR1)",
+    "status": "Upregulated",
+    "effect": "Over-expression expels the drug, causing resistance.",
+    "page": 22,
+    "panel_genes": []
+  },
+  {
+    "drug": "Cisplatin",
+    "biomarker": "LRP1B",
+    "status": "Downregulated",
+    "effect": "Promotes metastasis through deregulated MMPs (Shaikh et al. 2023).",
+    "page": 22,
+    "panel_genes": []
+  },
+  {
+    "drug": "Cisplatin",
+    "biomarker": "GSTM1",
+    "status": "Upregulated",
+    "effect": "Glutathione S-transferase upregulation reduces ROS, leading to drug resistance (Ferreira et al. 2023).",
+    "page": 22,
+    "panel_genes": [
+      "GSTM1"
+    ]
+  },
+  {
+    "drug": "Cisplatin",
+    "biomarker": "HDAC1 and ZEB1",
+    "status": "Upregulated",
+    "effect": "ZEB1 is an EMT promoter (Lima De Oliveira et al. 2023).",
+    "page": 22,
+    "panel_genes": []
+  },
+  {
+    "drug": "Cisplatin",
+    "biomarker": "LUM, DCN, IL1A, NRG1, TLE4, AKT2, PKD2, PDGF-C, PDE3B, BACH1",
+    "status": "Upregulated",
+    "effect": "Include PDGF-C (transforming/tumorigenic PDGF ligand), NRG1 (HER ligand; HER2 overexpression renders cisplatin resistance) (Yamano et al. 2010).",
+    "page": 22,
+    "panel_genes": []
+  },
+  {
+    "drug": "Cisplatin",
+    "biomarker": "CD44",
+    "status": "Upregulated (mRNA and protein)",
+    "effect": "Linked to DC-mediated tumour immune response (Qiao et al. 2023).",
+    "page": 22,
+    "panel_genes": []
+  },
+  {
+    "drug": "Cisplatin",
+    "biomarker": "Stemness markers Nanog, Oct4, Bmi1, CD117, CD133, ABCG2",
+    "status": "Nanog and Oct4 upregulated",
+    "effect": "Elevated stemness and tumorigenicity (Tsai et al. 2011).",
+    "page": 22,
+    "panel_genes": [
+      "ABCG2"
+    ]
+  },
+  {
+    "drug": "Cisplatin",
+    "biomarker": "APC, GSK3 and MMP7",
+    "status": "APC and GSK3 downregulated, MMP7 upregulated",
+    "effect": "Accumulation of cancer stem cells (Milan et al. 2023).",
+    "page": 22,
+    "panel_genes": [
+      "GSK3B",
+      "MMP7"
+    ]
+  },
+  {
+    "drug": "Cisplatin",
+    "biomarker": "CEBPA",
+    "status": "Upregulated",
+    "effect": "Disrupts IL-17 signalling and cytokine/immune homeostasis in the tumour microenvironment (Qiao et al. 2023).",
+    "page": 22,
+    "panel_genes": []
+  },
+  {
+    "drug": "Cisplatin",
+    "biomarker": "p22phox",
+    "status": "Upregulated",
+    "effect": "Activates PI3K/AKT, weakens apoptotic signalling, impairs cisplatin nuclear entry (Hung et al. 2015).",
+    "page": 22,
+    "panel_genes": []
+  },
+  {
+    "drug": "Cisplatin",
+    "biomarker": "NF-kB",
+    "status": "Upregulated",
+    "effect": "Reduced chromatin acetylation and nuclear translocation of BRCA1 (Almeida et al. 2014).",
+    "page": 22,
+    "panel_genes": []
+  },
+  {
+    "drug": "5-FU",
+    "biomarker": "WNT5A",
+    "status": "Upregulated",
+    "effect": "Regulator of non-canonical WNT pathway that regulates P-gp (Zhang et al. 2024).",
+    "page": 22,
+    "panel_genes": []
+  },
+  {
+    "drug": "Cetuximab",
+    "biomarker": "SMAD4",
+    "status": "Upregulated",
+    "effect": "Regulator of TGF-beta pathway; increases cancer cell survival (Khattri et al. 2024).",
+    "page": 22,
+    "panel_genes": []
+  },
+  {
+    "drug": "Cetuximab",
+    "biomarker": "GPX4",
+    "status": "Downregulated",
+    "effect": "Loss removes protection from ROS (Liu et al. 2022b).",
+    "page": 22,
+    "panel_genes": []
+  },
+  {
+    "drug": "Paclitaxel and docetaxel",
+    "biomarker": "TOP2A, DNMT1, INHBA and NEK2",
+    "status": "Upregulated",
+    "effect": "Involved in DNA repair mechanisms (Khera et al. 2023).",
+    "page": 23,
+    "panel_genes": []
+  },
+  {
+    "drug": "Paclitaxel and docetaxel",
+    "biomarker": "FCGBP",
+    "status": "Downregulated",
+    "effect": "ncRNA-related downregulation of FCGBP (Ding et al. 2024).",
+    "page": 23,
+    "panel_genes": []
+  }
+]
